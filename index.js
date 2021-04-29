@@ -13,5 +13,5 @@ app.use(cors());
 app.use(require("./rutas"));
 
 app.listen(app.get('port'), ()=>{
-    console.log("servidor en puerto: ",app.get('port'));
+    console.log("servidor corriendo en puerto: ",app.get('port'));
 })

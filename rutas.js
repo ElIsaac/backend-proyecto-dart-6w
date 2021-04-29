@@ -1,6 +1,7 @@
 const { Router } = require('express');
 const router = Router();
 
+
 router.get("/dia/lunes", (req, res) => {
     res.json(
         {
@@ -20,6 +21,7 @@ router.get("/dia/lunes", (req, res) => {
             );
 })
 
+
 router.get("/dia/martes", (req, res) => {
     res.json(
         {
@@ -36,6 +38,7 @@ router.get("/dia/martes", (req, res) => {
             );
 })
 
+
 router.get("/dia/miercoles", (req, res) => {
     res.json(
         {
@@ -50,6 +53,7 @@ router.get("/dia/miercoles", (req, res) => {
         }
             );
 })
+
 
 router.get("/dia/jueves", (req, res) => {
     res.json(
@@ -68,6 +72,7 @@ router.get("/dia/jueves", (req, res) => {
         }
             );
 })
+
 
 router.get("/dia/viernes", (req, res) => {
     res.json(
