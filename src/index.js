@@ -10,7 +10,7 @@ app.set('port', process.env.PORT || 4000);
 
 app.use(cors());
 
-app.use(require("./rutas"));
+app.use(require("./rutas/rutas"));
 
 app.listen(app.get('port'), ()=>{
     console.log("servidor corriendo en puerto: ",app.get('port'));
